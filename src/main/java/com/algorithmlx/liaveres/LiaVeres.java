@@ -8,6 +8,6 @@ public class LiaVeres implements ModInitializer {
     @Override
     public void onInitialize() {
         ModItems.init();
-        GeckoLib;
+        GeckoLib.initialize();
     }
 }

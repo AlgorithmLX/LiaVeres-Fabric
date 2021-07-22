@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "liaveres",
+  "version": "${version}",
+  "name": "Liaveres",
+  "description": "Port my modifiaction on fabric modloader",
+  "authors": [
+    "AlgorithmLX"
+  ],
+  "contact": {},
+  "license": "agpl-3.0",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.algorithmlx.liaveres.client.LiaveresClient"
+    ],
+    "main": [
+      "com.algorithmlx.liaveres.Liaveres"
+    ]
+  },
+  "mixins": [
+    "liaveres.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}

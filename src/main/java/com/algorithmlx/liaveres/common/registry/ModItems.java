@@ -5,7 +5,7 @@ import net.minecraft.item.Item;
 import static com.algorithmlx.liaveres.common.registry.ModItems.registerItem;
 
 public class ModItems {
-    public static final Item MatterCrystal = registerItem("ruby", new RubyItem(new FabricItemSettings()));
+    public static final Item MatterCrystal = registerItem("matter_crystal", new MatterCrystalItem(new FabricItemSettings()));
 
     public static void init() {
     }

@@ -1,6 +1,5 @@
 import com.algorithmlx.liaveres.common.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
-import software.bernie.geckolib3.GeckoLib;
 
 public class LiaVeres implements ModInitializer {
 
@@ -8,6 +7,5 @@ public class LiaVeres implements ModInitializer {
     @Override
     public void onInitialize() {
         ModItems.init();
-        GeckoLib.initialize();
     }
 }

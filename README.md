@@ -13,8 +13,6 @@ Textures(Matter, Matter Crystal, Matter Crystal block and Matter sword): DeltaRX
 
 Textures(Rest): [AlgorithmLX](https://github.com/IgroGames2227/).
 
-Models(GeckoLib, and other): [AlgorithmLX](https://github.com/IgroGames2227/) 
-
-Dependency(A4): [GeckoLib](https://www.curseforge.com/minecraft/mc-mods/geckolib)
+Models(GeckoLib, and other): [AlgorithmLX](https://github.com/IgroGames2227/)
 
 [JOIN TO MY ALGOTEAM DISCORD SERVER!](https://discord.gg/e2Abs6XAYW)

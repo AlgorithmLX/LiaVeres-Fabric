@@ -9,8 +9,6 @@ Mystic mod adding unusual items.
 
 Dev: [AlgorithmLX](https://github.com/IgroGames2227/) 
 
-Deving Helper: [HollowHorizon](https://github.com/HollowHorizon/) 
-
 Textures(Matter, Matter Crystal, Matter Crystal block and Matter sword): DeltaRXT.
 
 Textures(Rest): [AlgorithmLX](https://github.com/IgroGames2227/).

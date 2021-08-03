@@ -10,7 +10,7 @@ import net.minecraft.util.Identifier;
 
 public class LiaVeres implements ModInitializer {
 
-    public static final String ModId = "lv";
+    public static final String ModId = "liaveres";
     @Override
     public void onInitialize() {
         ModItems.init();

@@ -13,9 +13,9 @@ public class LiaVeres implements ModInitializer {
     public static final String ModId = "liaveres";
     @Override
     public void onInitialize() {
-        ModItems.init();
-        ModBlocks.init();
+        ModItems.registerItems();
+        ModBlocks.registerBlocks();
     }
-    public static final ItemGroup LiaVeres_GroupItems = FabricItemGroupBuilder.create(new Identifier(ModId, "liaveres_groupitems")).icon(() -> new ItemStack(ModItems.MatterCrystal)).build();
-    public static final ItemGroup LiaVeres_GroupBlocks = FabricItemGroupBuilder.create(new Identifier(ModId, "liaveres_groupblocks")).icon(() -> new ItemStack(ModBlocks.MatterCrystalBlock)).build();
+    public static final ItemGroup LiaVeres_GroupItems = FabricItemGroupBuilder.create(new Identifier(ModId, "liaveres_groupitems")).icon(() -> new ItemStack(ModItems.MATTER_CRYSTAL)).build();
+    public static final ItemGroup LiaVeres_GroupBlocks = FabricItemGroupBuilder.create(new Identifier(ModId, "liaveres_groupblocks")).icon(() -> new ItemStack(ModBlocks.MATTER_CRYSTAL_BLOCK)).build();
 }

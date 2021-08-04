@@ -1,24 +1,20 @@
 package com.algorithmlx.liaveres.common.registry;
 
-import com.algorithmlx.liaveres.LiaVeres;
-import com.algorithmlx.liaveres.common.object.item.MatterCrystal;
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import com.algorithmlx.liaveres.LiaVeres;;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.util.Identifier;
+import net.minecraft.util.registry.Registry;
 
 public class ModItems {
-    public static final Item MatterCrystal = registerItem("matter_crystal", new MatterCrystal(new FabricItemSettings().group(LiaVeres.LiaVeres_GroupItems)));
+    //ITEM
+    public static final Item MATTER_CRYSTAL =  new Item(new Item.Settings().group(LiaVeres.LiaVeres_GroupItems));
 
-    private static Item registerItem(String matter_crystal, MatterCrystal matterCrystal) {
-        return null;
-    }
+    //BlockItems
+    public static final BlockItem MATTER_CRYSTAL_BLOCK = new BlockItem(ModBlocks.MATTER_CRYSTAL_BLOCK, new Item.Settings().group(LiaVeres.LiaVeres_GroupBlocks));
 
-    public static final Item MatterCrystalBlock = registerItem("matter_crystal_block", new BlockItem(ModBlocks.MatterCrystalBlock, new FabricItemSettings().group(LiaVeres.LiaVeres_GroupBlocks)));
-
-    private static Item registerItem(String matter_crystal_block, BlockItem blockItem) {
-        return null;
-    }
-
-    public static void init() {
+    public static void registerItems() {
+        Registry.register(Registry.ITEM, new Identifier(LiaVeres.ModId, "matter_crytal"), MATTER_CRYSTAL);
+        Registry.register(Registry.ITEM, new Identifier(LiaVeres.ModId, "matter_crystal_block"), MATTER_CRYSTAL_BLOCK);
     }
 }

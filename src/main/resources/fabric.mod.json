@@ -1,4 +1,4 @@
-{
+ {
   "schemaVersion": 1,
   "id": "liaveres",
   "version": "${version}",
@@ -12,10 +12,10 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "com.algorithmlx.liaveres.client.LiaveresClient"
+      "com.algorithmlx.liaveres.client.LiaVeresClient"
     ],
     "main": [
-      "com.algorithmlx.liaveres.Liaveres"
+      "com.algorithmlx.liaveres.LiaVeres"
     ]
   },
   "mixins": [

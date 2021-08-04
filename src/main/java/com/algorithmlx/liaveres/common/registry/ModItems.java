@@ -1,6 +1,6 @@
 package com.algorithmlx.liaveres.common.registry;
 
-import com.algorithmlx.liaveres.LiaVeres;;
+import com.algorithmlx.liaveres.LiaVeres;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;

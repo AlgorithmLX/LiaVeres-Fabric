@@ -3,20 +3,17 @@
   "id": "liaveres",
   "version": "${version}",
   "name": "LiaVeres",
+  "icon": "assets/liaveres/icon.png",
   "description": "Port my modifiaction on fabric modloader",
   "authors": [
     "AlgorithmLX"
   ],
   "contact": {
-    "Source": "https://github.com/IgroGames2227/LiaVeres-Fabric",
-    "Discord": ""
+    "Source": "https://github.com/IgroGames2227/LiaVeres-Fabric"
   },
   "license": "agpl-3.0",
   "environment": "*",
   "entrypoints": {
-    "client": [
-      "com.algorithmlx.liaveres.client.LiaVeresClient"
-    ],
     "main": [
       "com.algorithmlx.liaveres.LiaVeres"
     ]

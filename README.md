@@ -1,7 +1,7 @@
 # LiaVeres-Fabric
 Port my modification on Fabric
 
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL?style=flat-square%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![Latest Release](https://img.shields.io/github/v/release/IgroGames2227/LiaVeres-Fabric?style=flat-square&label=Release)](https://github.com/IgroGames2227/LiaVeres-Fabric/releases)
 [![Latest PreRelease](https://img.shields.io/github/v/release/IgroGames2227/LiaVeres-Fabric?include_prereleases&style=flat-square&label=Pre)](https://github.com/IgroGames2227/LiaVeres-Fabric/releases)
 [![](https://img.shields.io/badge/Discord-AlgoTeam-738bd7?style=flat-square.svg)](https://discord.gg/e2Abs6XAYW)

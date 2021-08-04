@@ -2,12 +2,15 @@
   "schemaVersion": 1,
   "id": "liaveres",
   "version": "${version}",
-  "name": "Liaveres",
+  "name": "LiaVeres",
   "description": "Port my modifiaction on fabric modloader",
   "authors": [
     "AlgorithmLX"
   ],
-  "contact": {},
+  "contact": {
+    "Source": "https://github.com/IgroGames2227/LiaVeres-Fabric",
+    "Discord": ""
+  },
   "license": "agpl-3.0",
   "environment": "*",
   "entrypoints": {

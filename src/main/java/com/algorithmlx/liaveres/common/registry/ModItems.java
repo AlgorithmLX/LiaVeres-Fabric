@@ -16,7 +16,7 @@ public class ModItems {
 
     public static void registerItems() {
         //Reg Item
-        Registry.register(Registry.ITEM, new Identifier(LiaVeres.ModId, "matter_crytal"), MATTER_CRYSTAL);
+        Registry.register(Registry.ITEM, new Identifier(LiaVeres.ModId, "matter_crystal"), MATTER_CRYSTAL);
         Registry.register(Registry.ITEM, new Identifier(LiaVeres.ModId, "matter"), MATTER);
         //Reg Block
         Registry.register(Registry.ITEM, new Identifier(LiaVeres.ModId, "matter_crystal_block"), MATTER_CRYSTAL_BLOCK);

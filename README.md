@@ -8,7 +8,8 @@ Port my modification on Fabric
 
 # Mystic mod adding unusual items. 
 
-# Dev: [AlgorithmLX](https://github.com/IgroGames2227/) 
+# Credits
+Dev: [AlgorithmLX](https://github.com/IgroGames2227/) 
 
 Textures(Matter, Matter Crystal, Matter Crystal block and Matter sword): DeltaRXT.
 
